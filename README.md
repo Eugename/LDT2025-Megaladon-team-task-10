@@ -13,12 +13,12 @@
 2. **Запуск**:
    ```bash
    docker compose up -d --build
-.
-├── api/            # Backend на FastAPI
-├── streamlit/      # Веб Streamlit-интерфейс
-├── nginx/          # Конфигурация Nginx для маршрутизации запросов
-├── .env            # .env файл
-└── docker-compose.yml
+
+├── api/            # Backend на FastAPI  
+├── streamlit/      # Веб Streamlit-интерфейс  
+├── nginx/          # Конфигурация Nginx для маршрутизации запросов  
+├── .env            # .env файл  
+└── docker-compose.yml  
 
 2. **Возможности**:
 Доступен запрос по эндпоинту "адрес сервера"/api/predict
