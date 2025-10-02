@@ -24,3 +24,6 @@
 Доступен запрос по эндпоинту  http://v2943093.hosted-by-vdsina.ru/api/predict  
 Доступен Swagger http://v2943093.hosted-by-vdsina.ru/docs  
 Доступен базовый интерфейс по http://v2943093.hosted-by-vdsina.ru//ui  
+
+4. **Презентационные материалы**:
+https://drive.google.com/drive/folders/1H1FHN4bm3-w4Wiqw6XDigTBkqfTtUTvs?usp=sharing
