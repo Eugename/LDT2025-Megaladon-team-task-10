@@ -1,0 +1,14 @@
+30.01.2025 19:15:13 | uvicorn.error | INFO | server.py | serve | 74 | Started server process [8]
+30.01.2025 19:15:13 | uvicorn.error | INFO | server.py | serve | 74 | Started server process [9]
+30.01.2025 19:15:13 | uvicorn.error | INFO | on.py | startup | 48 | Waiting for application startup.
+30.01.2025 19:15:13 | uvicorn.error | INFO | on.py | startup | 48 | Waiting for application startup.
+30.01.2025 19:16:21 | uvicorn.error | INFO | on.py | startup | 62 | Application startup complete.
+30.01.2025 19:16:27 | uvicorn.error | INFO | on.py | startup | 62 | Application startup complete.
+30.01.2025 19:16:28 | uvicorn.error | INFO | server.py | shutdown | 263 | Shutting down
+30.01.2025 19:16:28 | uvicorn.error | INFO | on.py | shutdown | 67 | Waiting for application shutdown.
+30.01.2025 19:16:32 | uvicorn.error | INFO | on.py | shutdown | 78 | Application shutdown complete.
+30.01.2025 19:16:32 | uvicorn.error | INFO | server.py | serve | 84 | Finished server process [8]
+30.01.2025 19:16:32 | uvicorn.error | INFO | server.py | shutdown | 263 | Shutting down
+30.01.2025 19:16:32 | uvicorn.error | INFO | on.py | shutdown | 67 | Waiting for application shutdown.
+30.01.2025 19:16:33 | uvicorn.error | INFO | on.py | shutdown | 78 | Application shutdown complete.
+30.01.2025 19:16:33 | uvicorn.error | INFO | server.py | serve | 84 | Finished server process [9]

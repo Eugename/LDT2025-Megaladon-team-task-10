@@ -1,0 +1,4 @@
+30.01.2025 19:15:35 | api_logger | ERROR | main.py | lifespan_wrapper | 72 | Database connection error: OperationalError('(psycopg2.OperationalError) connection to server at "192.168.1.174", port 5432 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n').
+30.01.2025 19:15:35 | api_logger | ERROR | main.py | lifespan_wrapper | 72 | Database connection error: OperationalError('(psycopg2.OperationalError) connection to server at "192.168.1.174", port 5432 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n').
+30.01.2025 19:16:21 | api_logger | INFO | main.py | lifespan_wrapper | 79 | Transcribation model loaded successfully on device cuda.
+30.01.2025 19:16:27 | api_logger | INFO | main.py | lifespan_wrapper | 79 | Transcribation model loaded successfully on device cuda.
