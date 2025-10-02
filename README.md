@@ -7,8 +7,8 @@
      - Docker
      - Docker Compose
    - Создайте файл `.env` в корне проекта c содержанием: API_URL = "http://api:8000/"
-   - В путь ./api/src/models/ner_model_DeepPavlov_iter2_2126/ положить файлы модели, выложенной на hf 'ссылка'
-
+   - В путь ./api/src/models/ner_model_DeepPavlov_iter2_2126/ положить файлы обученной
+     BERT модели, выложенной на hf ['ссылка'](https://huggingface.co/MegaLDN/rubert-finetune-goods_NER)
 
 2. **Запуск**:
    ```bash
@@ -21,11 +21,6 @@
 └── docker-compose.yml  
 
 3. **Возможности**:
-Доступен запрос по эндпоинту "адрес сервера"/api/predict
-Доступен Swagger "адрес сервера"/docs
-Доступен базовый интерфейс по "адрес сервера"/ui
-
-4. Обученная BERT - модель: лежэит по адресу:
-```python
-https://huggingface.co/MegaLDN/rubert-finetune-goods_NER
-```
+Доступен запрос по эндпоинту  http://v2943093.hosted-by-vdsina.ru/api/predict
+Доступен Swagger http://v2943093.hosted-by-vdsina.ru/docs
+Доступен базовый интерфейс по http://v2943093.hosted-by-vdsina.ru//ui
