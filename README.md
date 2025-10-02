@@ -7,6 +7,8 @@
      - Docker
      - Docker Compose
    - Создайте файл `.env` в корне проекта c содержанием: API_URL = "http://api:8000/"
+   - В путь ./api/src/models/ner_model_DeepPavlov_iter2_2126/ положить файлы модели, выложенной на hf 'ссылка'
+
 
 2. **Запуск**:
    ```bash
