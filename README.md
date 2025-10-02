@@ -8,7 +8,7 @@
      - Docker Compose
    - Создайте файл `.env` в корне проекта c содержанием: API_URL = "http://api:8000/"
    - В путь ./api/src/models/ner_model_DeepPavlov_iter2_2126/ положить файлы обученной
-     BERT модели, выложенной на hf ['ссылка'](https://huggingface.co/MegaLDN/rubert-finetune-goods_NER)
+     BERT модели, выложенной на ['HuggingFace'](https://huggingface.co/MegaLDN/rubert-finetune-goods_NER)
 
 2. **Запуск**:
    ```bash
