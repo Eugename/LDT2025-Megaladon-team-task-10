@@ -20,7 +20,12 @@
 ├── .env            # .env файл  
 └── docker-compose.yml  
 
-2. **Возможности**:
+3. **Возможности**:
 Доступен запрос по эндпоинту "адрес сервера"/api/predict
 Доступен Swagger "адрес сервера"/docs
 Доступен базовый интерфейс по "адрес сервера"/ui
+
+4. Обученная BERT - модель: лежэит по адресу:
+```python
+https://huggingface.co/MegaLDN/rubert-finetune-goods_NER
+```
