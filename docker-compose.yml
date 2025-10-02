@@ -1,0 +1,45 @@
+services:
+  api:
+    env_file:
+      - .env
+    build: ./api
+    volumes:
+      - ./api:/api
+    ports:
+      - 8000:8000
+    hostname: api
+    command: uvicorn src.main:app --host 0.0.0.0 --port 8000 --log-config=/api/log_conf.yaml --workers 2
+    networks:
+      - x5-net
+
+  streamlit:
+    build: ./streamlit
+    env_file:
+      - .env
+    volumes:
+      - ./streamlit:/streamlit
+    command: streamlit run app.py --server.port 8765
+    ports:
+      - 8765:8765
+    hostname: streamlit
+    depends_on:
+      - api
+    networks:
+      - x5-net
+
+  nginx:
+    image: nginx:latest
+    hostname: nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - streamlit
+      - api
+    networks:
+      - x5-net
+
+networks:
+  x5-net:
+    driver: bridge
